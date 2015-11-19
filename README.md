@@ -5,6 +5,6 @@
 	<title>Document</title>
 </head>
 <body>
-	[shouye](https://github.com/Kiss-Dog/HTML5/html3.html)
+	[shouye](https://Kiss-Dog.github.io/HTML5/html3.html)
 </body>
 </html>
