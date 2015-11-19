@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="" method="get" id="f1" >
+		<input type="text" required id="test">
+		<input type="submit" value="submit">
+	</form>
+	<script type="text/javascript">
+		onload = function(){
+			var f1 = document.forms.f1;
+			f1.onsubmit = function(){
+				console.log(1);
+				if(f1.test.validity){
+					f1.test.setCustomValidity("请输入您的内容");
+				}else{
+					f1.test.setCustomValidity("");
+				}				
+			}
+		}
+	</script>
+</body>
+</html>
